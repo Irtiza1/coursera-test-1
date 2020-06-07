@@ -1,0 +1,88 @@
+body{
+	background-color: #e7f4fa;
+	font-size:18px;
+	font-family: 'Manrope', sans-serif;
+	color: black;
+}
+
+#header-nav{
+	background-color: #5aa5c4;
+}
+
+#navbar p{
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #e7f4fa;
+	margin:0;
+	}
+#name{
+	background-color: white;
+}
+
+#name a{
+	font-size: 1.2em;
+	text-transform: uppercase;
+	width: auto;
+	text-align: center;
+	color: black; 
+	width: 100%;
+}
+
+#name a:hover{
+	background:#e7f4fa;
+	text-align: center;
+	color: #5aa5c4;
+	font-weight: bold;
+}
+
+.navbar .navbar-toggler{
+	border: 3px solid white;
+}
+.navbar-toggler:hover{
+	background:#e7f4fa;
+}
+
+#main-content .jumbotron{
+	background-color: transparent;
+	border-radius: 0;
+	padding: 0;
+	margin-top:30px;
+}
+
+.jumbotron h2{
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight:bold;
+	text-align: center;
+}
+
+#tile{
+	position:relative;
+	background-color: #0bb0c0 ;
+	height:auto;
+	width:100%;
+	margin-bottom: 15px;
+	margin-top: 25px;
+	box-shadow: 4px 4px 4px #5aa5c4;
+	overflow: hidden;
+}
+
+#tile p{
+	margin-top: 40px;
+	text-align: justify;
+	padding:0 4px 0 4px;
+}
+
+.row span{
+	position:absolute;
+	width: 100%;
+	top:5px;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.row>div:nth-child(1){
+	margin-top: 25px;
+}
+
+
