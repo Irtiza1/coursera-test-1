@@ -37,6 +37,8 @@ body{
 
 .navbar .navbar-toggler{
 	border: 3px solid white;
+
+
 }
 .navbar-toggler:hover{
 	background:#e7f4fa;

@@ -1,0 +1,86 @@
+body{
+	background-color: #e7f4fa;
+	font-size:18px;
+	font-family: 'Manrope', sans-serif;
+}
+
+#header-nav{
+	background-color: #5aa5c4;
+	
+}
+#image{
+	background:  url('https://images.rics.org/publishedmedia/282ryhj4rgsrvyihkd0o/tony-webster-97532-unsplash.jpg') no-repeat;
+	width: 100px;
+	height: 100px;
+}
+#navbar p{
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #e7f4fa;
+	margin-left:20px; /* navition*/
+
+}
+#name a{
+	margin-right: 20px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	color: black;
+	width: auto;
+
+
+}
+
+#name a:hover{
+	background:#e7f4fa;
+	text-align: center;
+	color: #5aa5c4;
+	font-weight: bold;
+
+}
+
+.navbar .navbar-toggler{
+
+	border: 3px solid red;
+}
+.navbar-toggler:hover{
+	
+	background:#e7f4fa;
+}
+
+#main-content .jumbotron{
+	background-color: blue;
+	border-radius: 0;
+	padding: 0;
+	margin-top:50px;
+}
+
+#menu-tile{
+	height:250px;
+	width:100%;
+	margin-bottom: 15px;
+	position:relative;
+	border: 2px solid black;
+	overflow: hidden;
+
+}
+#menu-tile:hover{
+	background-color: white;
+	box-shadow:  5px  5px 10px #5aa5c4;
+}
+#menu-tile{
+	background: url(https://www.nicepng.com/png/detail/125-1259519_fl-studio-12-logo-fl-studio-logo-png.png);
+	background-position: center;
+}
+#main-content span{
+	position:absolute;
+	bottom: 0;
+	right:0;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: #0003fc;
+	background-color: gray;
+	opacity: 0.4
+}
+
